@@ -12,7 +12,7 @@ Hello! My name is Ali Musa, and I'm a highly experienced web developer and app d
 
 ## Contact 📬
 You can reach me via:
-- **Messenger**: [Messenger Profile Link](https://www.messenger.com/)
-- **Facebook**: [Facebook Profile Link](https://www.facebook.com/)
+- **Messenger**: [Let's Chat](https://m.me/alosh.6ix9nie)
+- **Facebook**: [ Let's Connect](https://facebook.com/alosh.6ix9nie)
 
 I currently do not have a LinkedIn account.
