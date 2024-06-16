@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+  
+  --light: #F5FAFF;
+  -light-gary: #E1E6EB;
+  
+  --dark: rgba(15, 20, 25, 1);
+  --dark-hue: rgba(20, 25, 30, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Mono", monospace;
+  color: var(--light);
+}
+body {
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--dark);
+}
+.container_ {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+.container_ .section {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.flexbox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.warrper {
+  width: 100%;
+  max-width: 650px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.intro__ {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.projects-title_ {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.flex-items {
+  display: flex;
+  padding: 15px;
+}
+.items-full {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--dark-hue);
+  width: 100%;
+}
+.color-fire {
+  color: #FF5733;
+}
+.boxs-flex {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+.box-half {
+  margin: 10px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--dark-hue);
+  width: 100%;
+  min-width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+.box-25 {
+  margin: 10px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--dark-hue);
+  width: 100%;
+  min-width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 300;
+}
+.copyright {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 10px;
+  opacity: 0.25;
+}
+.icon {
+  display: block;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+.icon-github {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='%23F5FAFF' fill-rule='evenodd' d='M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2' clip-rule='evenodd'/%3E%3C/svg%3E");
+}
+.icon-gmail {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='%23F5FAFF' d='m18.73 5.41l-1.28 1L12 10.46L6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64'/%3E%3C/svg%3E");
+}
